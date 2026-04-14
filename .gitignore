@@ -6,3 +6,15 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Archivos locales con rutas absolutas de esta máquina
+start-dev.cmd
+ACTUALIZAR-DASHBOARD.cmd
+extraer-datos.cjs
+
+# Editor
+.vscode/
+Thumbs.db
+
+# Claude Code local config (rutas absolutas de esta máquina)
+.claude/
